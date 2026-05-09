@@ -1,0 +1,18 @@
+# Binaries (root-anchored so cmd/raftkv and cmd/raftctl source dirs are NOT ignored)
+/bin/
+/raftkv
+/raftctl
+*.exe
+*.test
+*.out
+
+# Local cluster data + logs produced by scripts/demo.sh
+/data/
+data-*/
+/tmp-demo/
+*.log
+
+# Editor / OS cruft
+.DS_Store
+.idea/
+.vscode/
